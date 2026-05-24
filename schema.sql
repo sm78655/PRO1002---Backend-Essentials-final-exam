@@ -1,0 +1,1 @@
+CREATE TABLE examples included for assignment requirement.
