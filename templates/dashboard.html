@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<h1>Dashboard</h1><a href='/create'>Create</a>{% for post in posts %}<div><h3>{{ post.title }}</h3><a href='/edit/{{ post.id }}'>Edit</a> <a href='/delete/{{ post.id }}'>Delete</a></div>{% endfor %}{% endblock %}
